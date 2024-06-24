@@ -1,0 +1,60 @@
+.App {
+  /* background-color: purple; */
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(64, 64, 224);
+}
+.navBar {
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+}
+.container3 {
+  background-image: url(./images/tableDiv.webp);
+  padding: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.tableDiv {
+  background-color: skyblue;
+}
+.navBar2 {
+  display: flex;
+  justify-content: space-around;
+}
+.navItem {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+.navItem:hover {
+  background-color: deeppink;
+}
+.playerDiv {
+  display: inline-block;
+  border: 2px solid deeppink;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+  margin: 10px;
+}
+.playerPic {
+  width: 300px;
+}
+.footContainer {
+  /* background-image: url(./images/footer.png); */
+  /* object-fit: cover; */
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  background-color: skyblue;
+}
